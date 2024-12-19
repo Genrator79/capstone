@@ -1,0 +1,343 @@
+body {
+    width:1440px;
+    height:3683px;
+    padding-right:48px;
+    padding-left: 48px;
+    background-color:rgba(8, 15, 23, 1);
+    font-family:Plus Jakarta Sans;
+}
+
+header {
+    width:1344px;
+    height:96px;
+    padding-top:20px;
+    background-color:rgba(8, 15, 23, 1);
+    gap:8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+nav
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:1080px;
+    height:72px;
+    border:1.5px;
+    border-radius: 16px;
+    padding:24px 32px;
+    background-color: rgba(162, 210, 96, 0.06);
+}
+
+#nav1{
+    width:234px;
+    height:24px;
+    gap:32px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#nav1:nth-child(1)
+{
+    width:50px;
+    height:24px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+#nav1:nth-child(2)
+{
+    width:69px;
+    height:24px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+}
+#nav1:nth-child(3)
+{
+    width:51px;
+    height:24px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+}
+
+#nav2
+{
+    width:167px;
+    height:72px;
+    gap:12px;
+    padding-top: 15px;
+}
+#nav2 a
+{
+    width:167px;
+    height:31px;
+    font-weight:700;
+    font-size: 42px;
+    line-height:42px;
+    color:rgba(214, 221, 230, 1);
+}
+
+#nav3
+{
+    width:68px;
+    height:24px;
+    gap:32px;
+}
+#nav3 a{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color:rgba(214, 221, 230, 1);
+}
+
+nav a {
+    color:rgba(214, 221, 230, 1);
+    text-decoration: none; 
+}
+
+hr{
+    margin: 0;
+}
+
+.container
+{
+    width:1344px;
+    height:3323px;
+}
+.navcontainer
+{
+    width:1344px;
+    height: 1032px;
+    border-bottom: 1.5px;
+    padding-top:96px;
+    padding-bottom: 96px;
+    gap:48px;
+}
+.title p
+{
+    text-align: center;
+    width:1344px;
+    height:120px;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 120px;
+    text-align: center;
+    color:rgba(214, 221, 230, 1);
+}
+.title img{
+
+    width: 1344px;
+    height:672px;
+    border-radius: 36px;
+    border:1.5px;
+}
+
+.Heading{
+    margin: 0; 
+    width:416px;
+    height:26px;
+    font-weight:500;
+    font-size: 20px;
+    line-height:24px;
+    color: rgba(214, 221, 230, 1);
+}
+
+.SubHeading
+{
+    width:416px;
+    height:24px;
+    font-weight:500;
+    font-size: 17px;
+    line-height:24px;
+    color: rgba(214, 221, 230, 0.62);
+}
+
+
+.gallery {
+    display:flex;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width:416px;
+    height:277px;
+    border-top: 1.5px solid rgba(214, 221, 230, 0.2);
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    width: 1344px;
+    border-bottom: 1.5px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: rgba(8, 15, 23, 1);
+}
+
+.description p {
+    width: 900px;
+    max-width: 900px;
+    height:208px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    color:rgba(214, 221, 230, 1);
+}
+
+.contact {
+    display: flex;
+    height:700px;
+    min-height: 700px;
+    width: 1344px;
+    padding-top: 200px;
+    gap:48px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.contact-form {
+    display: flex;
+    width: 400px;
+    height: 276px;
+    gap:32px;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.contact-title {
+    width: 400px;
+    height:32px;
+    font-size: 28px;
+    color: rgba(214, 221, 230, 1);
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.28px;
+    line-height: 32px;
+    margin: 0;
+}
+.contact-detl
+{
+    width: 400px;
+    height:20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color:rgba(214, 221, 230, 1);
+}
+
+.input-group {
+    align-self: center;
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    color: rgba(214, 221, 230, 0.4);
+    font-weight: 500;
+    line-height: 1.2;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input-field {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.04);
+    min-height: 64px;
+    width: 56px;
+    margin: auto 0;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+
+.input-field::placeholder{
+  color: #D6DDE666;
+  text-align: center;
+  font-size: 20px;
+}
+
+.submit-btn {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: rgba(167, 238, 67, 1);
+    margin-top: 32px;
+    width: 400px;
+    height: 36px;
+    color: rgba(0, 10, 20, 1);
+    padding: 8px 16px;
+    font-size:15px;
+    font-weight:600;
+    line-height:20px;
+    border: none;
+    cursor: pointer;
+}
+
+.skip-link {
+    color: rgba(193, 241, 126, 1);
+    align-self: center;
+    margin-top: 32px;
+    font-size:15px;
+    font-weight:600;
+    line-height:20px;
+    text-decoration: none;
+}
+
+
+
+footer {
+    width: 1344px;
+    height:168px;border-top:1.5px;
+    padding-top:96px;
+    padding-bottom: 24px;
+    gap:24px;
+    
+}
+.footer-content
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.footer-content a
+{
+    width:220px;
+    height:32px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    text-decoration: none;
+    color: rgba(214, 221, 230, 0.62);
+}
+ 
+.footer-content button{
+    width:128px;
+    height:48px;
+    border-radius: 8px;
+    border:1.5px;
+    padding: 12px 24px;
+    border-top: 1.5px solid rgba(214, 221, 230, 0.2);
+    background-color: rgba(214, 221, 230, 0.2);
+}
+.footer-content button span{
+    width:80px;
+    height:24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(214, 221, 230, 1);
+}
